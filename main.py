@@ -57,7 +57,7 @@ class ChristMasTree:
                 else:
                     return (color + row[0] + self.reset) + \
                            (colors['green'] + row[1: len(row) - 1] + self.reset)\
-                           + (color + row[-1] + ConsoleColors.RESET)
+                           + (color + row[-1] + self.reset)
 
         else:
             new_row = []
@@ -72,7 +72,7 @@ class ChristMasTree:
                 else:
                     new_row.append(
                         (colors['green'] if not rand_background else choice(background_color))
-                        + item + ConsoleColors.RESET
+                        + item + self.reset
                     )
 
 
