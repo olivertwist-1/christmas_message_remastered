@@ -109,7 +109,7 @@ class ChristMasTree:
 
         print(f"{message_color}"
               f"{christmas_message} {destination}"
-              f"{ConsoleColors.RESET}\n")
+              f"{self.reset}\n")
 
         tree = [" " * int(10 - i) + self.set_color("*" * int(i * 2 + 1),
                                                    border_only=light_perimeter, rand_background=rand_color) for i in range(10)]
