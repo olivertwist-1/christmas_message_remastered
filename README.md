@@ -1,8 +1,6 @@
 # christmas_message_remastered
 Christmas message plus some Christmas Tree
 
-![Captura de pantalla 2021-12-26 a las 12 54 36 p  m](https://user-images.githubusercontent.com/89955811/147412630-76f6d56e-def4-48d0-b121-baa109fbb967.png)
-
 ## How does it work? ❓
 Ok, first create the instance of the class
 
@@ -19,6 +17,13 @@ To whoever you are going to send this little simple gift.
 Setting `light_parameter` and rand_color to True, the available colors will be:
 `BLUE` and `GREEN` otherwise if light_paramter is False random colors are: `BLUE`, `GREEN` and `CYAN`.
 Don't need to fix it, this is how i intended to do it.
+
+Look at the example
+![Captura de pantalla 2021-12-26 a las 12 54 36 p  m](https://user-images.githubusercontent.com/89955811/147412630-76f6d56e-def4-48d0-b121-baa109fbb967.png)
+
+Now Setting light_perimeter to False:
+![Captura de pantalla 2021-12-26 a las 1 37 45 p  m](https://user-images.githubusercontent.com/89955811/147413046-a5050ea6-624f-4ce9-9fab-0f036ec6f76b.png)
+
 
 ## Contribution 🛠️
 Don't feel free to contribute here unless you've got my permission.
