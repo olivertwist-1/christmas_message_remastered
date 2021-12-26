@@ -11,7 +11,7 @@ christmas_tree.display('Merry Christmas', 'EVERYONE', light_perimeter=True, rand
 ```
 Ok, first parameter is the message and the second is the destination, 
 to whoever you are going to send this little simple gift.
-`light_perimeter` basically fills with yellow in the perimeter while `rand_color` just fills the area with random colors (READ THE DOC OF THE FUNCTION)
+`light_perimeter` basically fills the perimeter with yellow while `rand_color` just fills the area with random colors (READ THE DOC OF THE FUNCTION)
 
 ### ⚠️ Little Warning
 Setting `light_perimeter` and rand_color to True, the available colors will be:
@@ -27,6 +27,7 @@ Don't need to fix it, this is how i intended to do it.
 
 ## Contribution 🛠️
 You need my permission first to change something in here.
+
 
 
 
